@@ -25,7 +25,7 @@ En **Controller Settings → Registry Clients**, añade un cliente de tipo **Git
 | Parameter Context Values | `Remove` |
 | Authentication Type | `None` para consultar o importar desde este repositorio público |
 
-Al crear un **Process Group**, usa **Import from Registry**, elige el cliente, la rama `main` y el bucket `S03`. Elige el flujo y la versión. Si tu instalación no incluye el cliente o no permite configurarlo, usa las descargas de arriba.
+Al crear un **Process Group**, usa **Import from Registry**, elige el cliente, la rama `main` y el bucket `S03`. Los flujos aparecen como `S03_D01` y `S03_E01_inicio`. Si tu instalación no incluye el cliente, no permite configurarlo o GitHub limita las consultas anónimas, usa las descargas de arriba.
 
 Para publicar cambios desde NiFi necesitas autorización de escritura. Configura en la propiedad sensible del cliente un token de alcance fino, limitado a este repositorio, con **Contents: Read and write**, o utiliza una GitHub App autorizada. En el menú del grupo hijo, usa **Version → Start version control** para un flujo nuevo o **Version → Commit local changes** para un grupo ya versionado. Nunca compartas un token con el alumnado ni lo guardes en Git.
 
