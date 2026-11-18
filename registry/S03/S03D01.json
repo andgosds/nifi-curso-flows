@@ -233,8 +233,8 @@
       "identifier" : "0a35daf0-4fb3-3d10-8c1f-42ebe07f20d1",
       "label" : "RETENCIÓN",
       "position" : {
-        "x" : 1200.0,
-        "y" : 0.0
+        "x" : 1352.0,
+        "y" : -8.0
       },
       "style" : {
         "background-color" : "#F5EDF7"
@@ -278,7 +278,7 @@
       "identifier" : "f63572e1-d403-366f-9e73-fc059eb21a85",
       "label" : "ENTRADA",
       "position" : {
-        "x" : 0.0,
+        "x" : -96.0,
         "y" : 0.0
       },
       "style" : {
@@ -314,8 +314,8 @@
       "name" : "Entregados - NO ARRANCAR",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 1200.0,
-        "y" : 100.0
+        "x" : 1360.0,
+        "y" : 96.0
       },
       "properties" : {
         "Log FlowFile Properties" : "true",
@@ -425,8 +425,8 @@
       "name" : "Identificar entrega",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 300.0,
-        "y" : 100.0
+        "x" : 368.0,
+        "y" : 88.0
       },
       "properties" : {
         "tramo" : "recepcion",
@@ -506,8 +506,8 @@
       "name" : "Marcar revisión",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 600.0,
-        "y" : 100.0
+        "x" : 328.0,
+        "y" : 352.0
       },
       "properties" : {
         "tramo" : "revisado",
@@ -579,8 +579,8 @@
       "name" : "Entrada - un pedido",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 0.0,
-        "y" : 100.0
+        "x" : -120.0,
+        "y" : 104.0
       },
       "properties" : {
         "File Size" : "0B",
@@ -670,8 +670,8 @@
       "name" : "Entregar pedido",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 900.0,
-        "y" : 100.0
+        "x" : 872.0,
+        "y" : 80.0
       },
       "properties" : {
         "Create Missing Directories" : "true",
@@ -779,8 +779,8 @@
       "name" : "Incidencias - NO ARRANCAR",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 1200.0,
-        "y" : 450.0
+        "x" : 1328.0,
+        "y" : 448.0
       },
       "properties" : {
         "Log FlowFile Properties" : "true",
@@ -890,8 +890,8 @@
       "name" : "Normalizar estado",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 600.0,
-        "y" : 300.0
+        "x" : 328.0,
+        "y" : 616.0
       },
       "properties" : {
         "Replacement Value" : "validado",
@@ -986,7 +986,8 @@
   "parameterContexts" : { },
   "parameterProviders" : { },
   "snapshotMetadata" : {
+    "author" : "admin",
     "flowIdentifier" : "S03D01",
-    "timestamp" : 1795031725093
+    "timestamp" : 1795032708839
   }
 }
